@@ -37,21 +37,10 @@ $secret = "GKD5VS3VBD4CNF3B";
                 <input type="email" id="email" name="email" size="30" placeholder="Ex: exemplo@exemplo.com">
             </div>
 
-            <div class="g-recaptcha" data-sitekey="6Lf5ANkfAAAAANIYChNgVuh2ev5jqXDvkNYpKlP8"></div><br>
-
             <input type="submit" class="btn" value="Confirmar cadastro" id="submit-button" onclick="return valida()">
 
         </form>
         </section>
-
-        <script>
-            /*function valida() {
-                if (grecaptcha.getResponse() == "") {
-                    alert("Você precisa marcar a caixa de validação");
-                    return false;
-                }
-            }*/
-        </script>
 
         <img src="<?php echo $g->getUrl("jenifferoliveira", "autenticacaodoisfatores.000webhostapp.com", $secret) ?>">
 
