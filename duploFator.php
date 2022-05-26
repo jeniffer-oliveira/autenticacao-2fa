@@ -17,7 +17,7 @@
     <form action="verificador.php" method="post" autoComplete="false">
 
         <h1>Dupla autenticação</h1>
-        <p>Insira o token gerado pelo aplicativo.</p>
+        <p>Nesta etapa, você deve insirir o token gerado pelo aplicativo.</p>
         <input type="text" class="form-control" name="codigo" id="iCodigo" placeholder="******"><br> <br>  
         <div id="botoes">
             <p id="voltar"><a href="index.php">Voltar</a></p>
