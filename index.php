@@ -27,7 +27,7 @@ $secret = "GKD5VS3VBD4CNF3B";
     <section class="container">
         <form id="form" method="post" action="duploFator.php">
             <div class="msg-error"></div>
-            <div>"
+            <div>
                 <label for="nome">Nome: </label>
                 <input type="text" id="nome" name="name" size="30" placeholder="Digite seu primeiro nome">
             </div>
